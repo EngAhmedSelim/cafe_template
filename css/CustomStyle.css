@@ -1,0 +1,107 @@
+﻿
+
+@font-face{font-family:'ahmed';
+           src:url("../fonts/LuckiestGuy-Regular.woff"),url("../fonts/LuckiestGuy-Regular.woff2");
+}
+@font-face{font-family:'abdo';
+           src:url("../fonts/Courgette-Regular.woff"),url("../fonts/Courgette-Regular.woff2");
+}
+body{margin:0}
+html, body {
+    
+    max-width:100%;
+    overflow:hidden;
+}
+/* start navbar and carsouel */
+.carousel-item img{height:650px;}
+.carousel-indicators li {width:15px;
+                         height:15px;
+                         border-radius:100%;                 
+}
+.navbar {padding:0;
+         
+}
+.navbarScroll{background-color:white;}
+.colorScroll{color:black}
+.navbar-nav{padding:0;
+            margin:0
+}
+.navbar-nav li{text-align:center;
+               height:52px;
+               
+}
+.navbar-nav li a{line-height:35px}
+.navbar-nav li:hover, .navbar-nav li a:hover{background-color:white;
+                                             color:black;
+}
+
+.navbar-brand{font-size:25px;
+              font-weight:bold;
+              font-family:ahmed;
+              letter-spacing:3px;
+              color:white;
+              text-shadow:2px 2px 5px #bababa;
+}
+.nav-link{font-size:17px;
+                 font-weight:500;
+                 color:white;
+                 text-shadow:2px 2px 5px #bababa;
+}
+.nav-link:hover{color:#a30000;
+                                       text-shadow:none;
+}
+.navbar-toggler{background-color:white;}
+/* End navbar and carsouel */
+.container-fluid{padding:0}
+.margin{margin-top:100px;}
+.grayBg{background-color:#f3f2f2}
+.testimonials{background:url("../images/testimonial-bg.jpg") no-repeat fixed;
+              background-size:cover;
+              color:white;
+              text-shadow:2px 2px 5px #bababa;
+              padding:50px 25px 150px 25px;
+              
+
+}
+
+.position{position:relative;
+          top:100px;
+}
+
+.contactContainer{padding-top:70px;
+                  padding-bottom:50px;
+                  border-bottom:1px inset #e5e5e5;
+}
+
+.classZoom{transition:all 0.2s ease-in-out;
+           overflow:hidden
+}
+.classZoom:hover{transform:scale(1.1);}
+
+.social-menu{list-style-type:none;
+            margin:40px;
+            
+}
+.social-menu li {width:30px;
+                 height:30px;
+                 border-radius:100%;
+                 text-align:center;
+                 line-height:15px;
+                 float:left;
+                
+}
+
+.open-hours{height:260px;
+            color:white;
+            background-color:rgba(203, 12, 12,0.8);
+            padding:20px 10px;
+            border-radius:10px;
+            padding-left:20px;
+}
+
+.footer-margin{margin-top:100px;
+               
+}
+footer{margin-top:50px}
+
+h1{padding:50px 10px 10px 10px}
